@@ -1,20 +1,22 @@
-# Campaign Performance Output
+# Channel Performance Output
 
-This section contains screenshots of the campaign performance mart output.
+This section contains screenshots of the channel performance mart output.
+
+Channels included:
+
+- Google
+- Meta
 
 Metrics included:
 
-- Total Spend
-- Impressions
-- Clicks
-- CTR
-- Conversions
+- Spend
 - Revenue
 - ROAS
 - CAC
 - ROI
+- CTR
 - Conversion Rate
 
 Purpose:
 
-To demonstrate campaign-level marketing performance reporting.
+To demonstrate channel-level marketing performance reporting.
