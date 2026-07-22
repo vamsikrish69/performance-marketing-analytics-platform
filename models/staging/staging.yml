@@ -93,7 +93,7 @@ models:
                 values: ['mobile', 'desktop', 'tablet']
 
   - name: stg_conversions
-    description: "Cleaned customer conversion and revenue data."
+    description: "Cleaned customer conversion and revenue data with derived campaign mapping."
     columns:
       - name: conversion_id
         tests:
@@ -101,6 +101,10 @@ models:
           - unique
 
       - name: customer_id
+        tests:
+          - not_null
+
+      - name: campaign_id
         tests:
           - not_null
 

@@ -26,7 +26,7 @@ meta_ads AS (
 
 ),
 
-combined AS (
+combined_ads AS (
 
     SELECT * FROM google_ads
 
@@ -41,11 +41,19 @@ SELECT
     campaign_name,
     channel,
 
+    MIN(campaign_date) AS first_campaign_date,
+    MAX(campaign_date) AS latest_campaign_date,
+
     SUM(spend) AS total_spend,
     SUM(impressions) AS total_impressions,
-    SUM(clicks) AS total_clicks
+    SUM(clicks) AS total_clicks,
 
-FROM combined
+    ROUND(
+        SUM(clicks) / NULLIF(SUM(impressions), 0),
+        4
+    ) AS ctr
+
+FROM combined_ads
 
 GROUP BY
     campaign_id,
