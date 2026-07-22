@@ -76,4 +76,3 @@ models:
           - accepted_values:
               arguments:
                 values: ['converted', 'not_converted']
-
