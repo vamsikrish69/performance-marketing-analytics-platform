@@ -1,87 +1,86 @@
-campaign_id	campaign_name	cost	impressions	clicks	date
-3	festival_sale	295	1671	212	6/21/2026
-3	festival_sale	257	4690	69	6/11/2026
-4	clearance_sale	450	4229	161	6/18/2026
-3	festival_sale	537	3153	178	6/25/2026
-4	clearance_sale	147	1113	250	6/15/2026
-3	festival_sale	386	4793	97	6/8/2026
-2	winter_sale	508	4550	254	6/26/2026
-4	clearance_sale	151	2015	94	6/4/2026
-3	festival_sale	277	4859	232	6/1/2026
-4	clearance_sale	92	1326	183	6/18/2026
-2	winter_sale	248	1408	287	6/23/2026
-3	festival_sale	193	1597	225	6/8/2026
-3	festival_sale	334	3973	205	6/6/2026
-2	winter_sale	121	3104	203	6/10/2026
-1	summer_sale	526	1331	318	6/27/2026
-1	summer_sale	198	5208	301	6/18/2026
-4	clearance_sale	335	5863	149	6/4/2026
-1	summer_sale	149	5327	85	6/30/2026
-5	new_launch	186	3609	290	6/10/2026
-1	summer_sale	151	5314	242	6/19/2026
-2	winter_sale	248	2367	128	6/23/2026
-1	summer_sale	216	5605	276	6/30/2026
-1	summer_sale	148	919	301	6/18/2026
-5	new_launch	511	2614	164	6/7/2026
-1	summer_sale	453	1073	67	6/29/2026
-1	summer_sale	471	5451	310	6/28/2026
-3	festival_sale	171	4824	111	6/17/2026
-2	winter_sale	541	1853	89	6/20/2026
-3	festival_sale	403	5200	123	6/5/2026
-2	winter_sale	161	3140	213	6/28/2026
-1	summer_sale	193	3031	326	6/4/2026
-1	summer_sale	278	5470	202	6/15/2026
-5	new_launch	507	5165	244	6/6/2026
-1	summer_sale	186	1779	92	6/14/2026
-4	clearance_sale	419	2852	335	6/4/2026
-3	festival_sale	519	2521	161	6/6/2026
-4	clearance_sale	342	884	247	6/19/2026
-5	new_launch	477	2516	325	6/6/2026
-4	clearance_sale	232	1278	288	6/6/2026
-2	winter_sale	165	4939	260	6/30/2026
-1	summer_sale	98	4049	140	6/28/2026
-3	festival_sale	479	5053	236	6/24/2026
-5	new_launch	351	5029	231	6/28/2026
-5	new_launch	430	5084	142	6/2/2026
-5	new_launch	330	723	145	6/20/2026
-2	winter_sale	447	3466	107	6/5/2026
-5	new_launch	96	1253	226	6/10/2026
-2	winter_sale	230	5962	101	6/25/2026
-1	summer_sale	501	4109	85	6/18/2026
-1	summer_sale	82	1342	326	6/4/2026
-3	festival_sale	464	1750	165	6/30/2026
-4	clearance_sale	480	1540	229	6/1/2026
-2	winter_sale	512	5157	291	6/8/2026
-4	clearance_sale	272	4890	216	6/10/2026
-4	clearance_sale	395	5887	250	6/13/2026
-2	winter_sale	121	5929	140	6/24/2026
-3	festival_sale	443	5159	92	6/28/2026
-1	summer_sale	212	4723	44	6/26/2026
-3	festival_sale	424	981	300	6/21/2026
-5	new_launch	290	5437	324	6/17/2026
-5	new_launch	425	2340	314	6/27/2026
-3	festival_sale	98	3951	116	6/13/2026
-2	winter_sale	195	2836	142	6/14/2026
-1	summer_sale	160	5006	132	6/10/2026
-5	new_launch	537	4604	298	6/10/2026
-1	summer_sale	490	5033	234	6/15/2026
-1	summer_sale	483	1059	311	6/24/2026
-1	summer_sale	344	5518	334	6/16/2026
-4	clearance_sale	223	4702	321	6/25/2026
-1	summer_sale	310	4345	228	6/27/2026
-3	festival_sale	359	4950	278	6/4/2026
-4	clearance_sale	74	2188	32	6/21/2026
-4	clearance_sale	400	2447	113	6/16/2026
-1	summer_sale	60	5866	322	6/20/2026
-1	summer_sale	336	4549	289	6/17/2026
-2	winter_sale	341	3219	252	6/16/2026
-3	festival_sale	460	1064	178	6/13/2026
-2	winter_sale	197	3476	275	6/13/2026
-5	new_launch	319	1136	27	6/20/2026
-2	winter_sale	451	1041	107	6/1/2026
-4	clearance_sale	296	1057	350	6/21/2026
-5	new_launch	281	1880	107	6/15/2026
-4	clearance_sale	301	4982	223	6/2/2026
-2	winter_sale	406	3482	300	6/24/2026
-4	clearance_sale	261	3826	191	6/6/2026
-
+campaign_id,campaign_name,cost,impressions,clicks,date
+5,festival_sale,340,4035,291,6/3/2026
+3,clearance_sale,168,909,170,6/4/2026
+4,clearance_sale,498,1754,256,6/22/2026
+3,festival_sale,104,5299,138,6/24/2026
+1,summer_sale,111,927,184,6/20/2026
+3,clearance_sale,343,5873,181,6/7/2026
+5,summer_sale,273,2254,254,6/5/2026
+3,winter_sale,74,5027,276,6/27/2026
+1,summer_sale,145,5265,57,6/5/2026
+2,winter_sale,208,4709,232,6/9/2026
+3,festival_sale,245,5949,287,6/8/2026
+4,winter_sale,433,3031,160,6/27/2026
+4,festival_sale,377,4860,190,6/3/2026
+4,festival_sale,532,984,64,6/11/2026
+4,winter_sale,301,4199,179,6/2/2026
+2,festival_sale,274,4976,136,6/6/2026
+5,winter_sale,206,1731,88,6/1/2026
+3,summer_sale,546,1241,333,6/4/2026
+4,festival_sale,67,4762,33,6/16/2026
+2,new_launch,328,4124,44,6/21/2026
+2,new_launch,86,5644,132,6/12/2026
+3,new_launch,550,3750,184,6/12/2026
+4,festival_sale,538,2392,184,6/3/2026
+5,summer_sale,179,4210,88,6/2/2026
+3,summer_sale,305,4103,220,6/12/2026
+4,winter_sale,254,2599,62,6/2/2026
+1,new_launch,144,5678,178,6/21/2026
+1,summer_sale,77,1990,247,6/21/2026
+2,clearance_sale,300,2713,333,6/17/2026
+4,summer_sale,407,5193,79,6/18/2026
+1,summer_sale,173,5586,337,6/30/2026
+5,clearance_sale,456,3497,57,6/12/2026
+1,winter_sale,197,4757,237,6/14/2026
+3,clearance_sale,449,3334,250,6/16/2026
+2,new_launch,186,1860,181,6/2/2026
+2,new_launch,276,5150,347,6/19/2026
+4,clearance_sale,488,1903,287,6/17/2026
+3,new_launch,382,1642,36,6/8/2026
+2,winter_sale,407,3584,288,6/14/2026
+5,clearance_sale,361,5896,277,6/2/2026
+4,clearance_sale,393,2761,80,6/28/2026
+3,clearance_sale,239,4260,67,6/22/2026
+4,new_launch,321,3115,299,6/9/2026
+5,clearance_sale,409,3997,87,6/27/2026
+1,clearance_sale,484,3677,115,6/11/2026
+4,festival_sale,217,4436,151,6/1/2026
+4,winter_sale,386,2497,54,6/27/2026
+4,winter_sale,314,3293,38,6/17/2026
+3,summer_sale,453,4064,323,6/12/2026
+5,clearance_sale,179,4591,263,6/30/2026
+3,summer_sale,516,2801,289,6/23/2026
+3,clearance_sale,526,3468,271,6/3/2026
+4,clearance_sale,101,3748,84,6/10/2026
+2,festival_sale,251,4256,316,6/19/2026
+1,new_launch,327,4697,135,6/22/2026
+3,festival_sale,67,5137,201,6/7/2026
+1,summer_sale,336,1118,180,6/15/2026
+3,winter_sale,195,2822,150,6/8/2026
+5,summer_sale,241,5666,326,6/19/2026
+5,festival_sale,254,1761,297,6/5/2026
+2,summer_sale,103,3119,101,6/25/2026
+5,winter_sale,313,5400,33,6/5/2026
+2,festival_sale,299,5369,122,6/22/2026
+1,new_launch,120,3014,37,6/22/2026
+5,clearance_sale,346,603,268,6/19/2026
+3,clearance_sale,256,2179,204,6/29/2026
+3,new_launch,340,2347,41,6/2/2026
+3,winter_sale,310,1229,348,6/28/2026
+1,clearance_sale,277,1426,350,6/17/2026
+4,new_launch,463,1965,201,6/19/2026
+1,festival_sale,349,2173,205,6/1/2026
+1,clearance_sale,546,1200,193,6/8/2026
+1,festival_sale,165,3289,226,6/1/2026
+3,summer_sale,321,1750,136,6/6/2026
+4,new_launch,301,1386,37,6/15/2026
+3,summer_sale,384,1203,42,6/19/2026
+2,clearance_sale,163,2801,128,6/10/2026
+2,festival_sale,354,5748,200,6/24/2026
+3,winter_sale,121,971,174,6/12/2026
+5,new_launch,528,2557,164,6/17/2026
+1,festival_sale,183,1935,73,6/30/2026
+1,winter_sale,486,5767,27,6/8/2026
+2,festival_sale,529,2963,71,6/4/2026
+1,festival_sale,220,5675,134,6/30/2026
+3,clearance_sale,347,3891,305,6/3/2026
