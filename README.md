@@ -364,6 +364,246 @@ This platform enables marketing teams to:
 - Data Quality Testing
 - GitHub Project Management
 
+# Setup Instructions
+
+Follow the steps below to reproduce the project in your own environment.
+
+## Prerequisites
+
+Ensure you have access to:
+
+- Google Cloud Platform (GCP)
+- BigQuery
+- GitHub
+- dbt Cloud
+
+---
+
+## Step 1: Clone the Repository
+
+```bash
+git clone https://github.com/vamsikrish69/performance-marketing-analytics-platform.git
+```
+
+---
+
+## Step 2: Create a BigQuery Project
+
+Create a Google Cloud project and enable BigQuery.
+
+Create a development dataset:
+
+```text
+dbt_vamsikrish69
+```
+
+---
+
+## Step 3: Configure dbt Cloud
+
+1. Create a dbt Cloud account.
+2. Connect GitHub.
+3. Connect BigQuery.
+4. Import this repository.
+5. Create a development environment.
+
+---
+
+## Step 4: Seed Source Data
+
+Source files are located in:
+
+```text
+data/seeds/
+```
+
+Included datasets:
+
+```text
+google_ads.csv
+meta_ads.csv
+customers.csv
+conversions.csv
+```
+
+Run:
+
+```bash
+dbt seed --full-refresh
+```
+
+Expected outcome:
+
+```text
+google_ads
+meta_ads
+customers
+conversions
+```
+
+tables are created in BigQuery.
+
+---
+
+## Step 5: Build Staging Layer
+
+Run:
+
+```bash
+dbt run --select staging
+```
+
+Validate:
+
+```bash
+dbt test --select staging
+```
+
+Models created:
+
+```text
+stg_google_ads
+stg_meta_ads
+stg_customers
+stg_conversions
+```
+
+---
+
+## Step 6: Build Intermediate Layer
+
+Run:
+
+```bash
+dbt run --select intermediate
+```
+
+Validate:
+
+```bash
+dbt test --select intermediate
+```
+
+Models created:
+
+```text
+int_campaign_spend
+int_campaign_conversions
+int_customer_acquisition
+```
+
+---
+
+## Step 7: Build Marts Layer
+
+Run:
+
+```bash
+dbt run --select marts
+```
+
+Validate:
+
+```bash
+dbt test --select marts
+```
+
+Models created:
+
+```text
+fct_campaign_performance
+fct_channel_performance
+fct_customer_acquisition
+```
+
+---
+
+## Step 8: Execute Full Project Build
+
+Run the complete pipeline:
+
+```bash
+dbt build
+```
+
+Expected outcome:
+
+```text
+All models built successfully
+All tests passed
+No errors
+No skipped models
+```
+
+---
+
+## Step 9: Run Business Analysis Queries
+
+Business queries are available in:
+
+```text
+analyses/
+```
+
+Included analyses:
+
+```text
+top_campaigns_by_roas.sql
+channel_performance_summary.sql
+customer_acquisition_analysis.sql
+low_performing_campaigns.sql
+updt_low_prfmnc_campaign.sql
+```
+
+These queries answer key marketing questions regarding campaign performance, customer acquisition, channel effectiveness, and optimization opportunities.
+
+---
+
+## Verification
+
+A successful implementation should produce:
+
+```text
+Seed Layer
+✔ Google Ads Data
+✔ Meta Ads Data
+✔ Customers Data
+✔ Conversions Data
+
+Staging Layer
+✔ 4 Models
+
+Intermediate Layer
+✔ 3 Models
+
+Marts Layer
+✔ 3 Models
+
+Business Queries
+✔ 5 Analyses
+
+dbt Tests
+✔ All Tests Passed
+```
+
+---
+
+## Expected Final Outputs
+
+The platform produces:
+
+```text
+Campaign Performance Reporting
+Channel Performance Reporting
+Customer Acquisition Analytics
+ROAS Analysis
+ROI Analysis
+CAC Analysis
+Conversion Analysis
+Customer Value Segmentation
+Business Query Outputs
+```
+
 ---
 
 # Project Outcome
