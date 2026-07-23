@@ -6,9 +6,9 @@ The screenshots provide visual evidence of project architecture, dbt implementat
 
 ---
 
-## Screenshot Categories
+# Screenshot Categories
 
-### 1. dbt Structure
+## 1. dbt Structure
 
 Folder:
 
@@ -30,7 +30,7 @@ To demonstrate project organization and dbt best practices.
 
 ---
 
-### 2. dbt Build Success
+## 2. dbt Build Success
 
 Folder:
 
@@ -48,6 +48,7 @@ Expected Result:
 
 ```text
 83 Passed
+0 Warnings
 0 Errors
 0 Skipped
 ```
@@ -58,7 +59,7 @@ To validate successful end-to-end pipeline execution.
 
 ---
 
-### 3. Staging Layer
+## 3. Staging Layer
 
 Folder:
 
@@ -77,11 +78,11 @@ stg_conversions
 
 Purpose:
 
-To demonstrate source data standardization and preparation.
+To demonstrate source data standardization, cleansing, and preparation.
 
 ---
 
-### 4. Intermediate Layer
+## 4. Intermediate Layer
 
 Folder:
 
@@ -99,11 +100,11 @@ int_customer_acquisition
 
 Purpose:
 
-To demonstrate business transformation logic and aggregation.
+To demonstrate business transformation logic and aggregations.
 
 ---
 
-### 5. Marts Layer
+## 5. Marts Layer
 
 Folder:
 
@@ -121,41 +122,11 @@ fct_customer_acquisition
 
 Purpose:
 
-To demonstrate business-ready reporting models.
+To demonstrate business-ready reporting models and KPI calculations.
 
 ---
 
-### 6. dbt Lineage Graph
-
-Folder:
-
-```text
-dbt_lineage_graph/
-```
-
-Contains screenshots showing complete dbt lineage.
-
-Flow:
-
-```text
-Seeds
-↓
-Staging
-↓
-Intermediate
-↓
-Marts
-↓
-Business Queries
-```
-
-Purpose:
-
-To demonstrate model dependency management and analytics engineering architecture.
-
----
-
-### 7. Business Queries
+## 6. Business Queries
 
 Folder:
 
@@ -163,9 +134,9 @@ Folder:
 business_queries/
 ```
 
-Contains screenshots of analytical query outputs.
+Contains screenshots of business-facing analytical outputs.
 
-Queries Included:
+Included Analyses:
 
 ```text
 Top Campaigns by ROAS
@@ -176,17 +147,18 @@ Updated Low Performing Campaigns
 
 Purpose:
 
-To demonstrate business-facing analytical outputs and marketing insights.
+To demonstrate how the platform answers real-world marketing analytics questions and supports business decision-making.
 
 ---
 
-## Business Value
+# Business Value
 
 The screenshots collectively demonstrate:
 
 - Analytics Engineering
 - BigQuery Development
 - dbt Cloud Development
+- SQL Transformation Logic
 - Data Modeling
 - Data Quality Testing
 - Campaign Performance Analysis
@@ -194,3 +166,24 @@ The screenshots collectively demonstrate:
 - Customer Acquisition Analytics
 - Marketing KPI Measurement
 - End-to-End Analytics Pipeline Development
+
+---
+
+# Platform Validation
+
+The project was successfully validated using:
+
+```bash
+dbt build
+```
+
+Build Result:
+
+```text
+83 Passed
+0 Warnings
+0 Errors
+0 Skipped
+```
+
+This confirms successful execution of all seeds, models, transformations, tests, and business-facing reporting layers.
